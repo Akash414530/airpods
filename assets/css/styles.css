@@ -375,7 +375,8 @@ img {
         grid-template-columns: min-content;
     -ms-grid-rows: 80% 10%;
         grid-template-rows: 80% 10%;
-        grid-template-areas: "data img" "scroll scroll";
+        grid-template-areas: "data img"
+ "scroll scroll";
     -ms-flex-line-pack: end;
         align-content: flex-end;
     -webkit-box-pack: center;
@@ -439,4 +440,16 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+}
+.foot {
+  min-height: auto;
+  padding: 20px 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-text p {
+  color: var(--first-color);
+  font-size: 14px;
 }
